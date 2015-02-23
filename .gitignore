@@ -1,0 +1,12 @@
+# ignore vim
+*.swp
+
+# ignore images
+*.bmp
+*.gif
+*.png
+
+# ignore terranova state and variables files
+*.tfstate
+*.tfstate.backup
+*.tfvars
