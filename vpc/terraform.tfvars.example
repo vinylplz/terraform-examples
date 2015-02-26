@@ -1,0 +1,8 @@
+# This file used for storing variables that you don't want
+# publically accessible on github.  To use it, simply copy
+# or rename it to 'terraform.tfvars', and fill in the 
+# variables with appropriate values.
+
+# AWS Credentials
+access_key = "foo"
+secret_key = "bar"
