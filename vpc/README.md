@@ -2,7 +2,7 @@
 
 Here is a basic idea of what we will be building
 
-[vpc-architecture.png](./img/vpc-architecture.png)
+![vpc-architecture.png](./img/vpc-architecture.png)
 
 
 ## terraform plan
