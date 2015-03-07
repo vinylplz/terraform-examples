@@ -1,5 +1,13 @@
+# Terraform VPC Example
+
+Here is a basic idea of what we will be building
+
+[vpc-architecture.png](./img/vpc-architecture.png)
+
 
 ## terraform plan
+Example plan phase run against a clean environment
+
 ```bash
 $ terraform plan
 (...)
@@ -213,7 +221,9 @@ $ terraform plan
 ```
 
 ## terraform graph
+Example graph phase against a clean environment
+
 ```bash
 $ terrafrom graph | dot -Tjpeg > vpc.jpeg
 ```
-![vpc.jpeg](./vpc.jpeg)
+![vpc-terraform-graph.jpeg](img/vpc-terraform-graph.jpeg)
