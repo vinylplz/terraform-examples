@@ -6,3 +6,5 @@
 # AWS Credentials
 access_key = "foo"
 secret_key = "bar"
+# the name of the ssh key to assign to ec2 instances, asg's
+ssh_key = "baz"

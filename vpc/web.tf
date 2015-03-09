@@ -13,7 +13,7 @@ resource "aws_launch_configuration" "web" {
   instance_type = "t1.micro"
   security_groups = ["${aws_security_group.web.id}"]
 #    iam_instance_profile = FIXME
-  key_name = "terraform"
+  key_name = "${var.ssh_key}"
   user_data = "#!/bin/bash\nsudo apt-get update && sudo apt-get install -y apache2"
 }
 

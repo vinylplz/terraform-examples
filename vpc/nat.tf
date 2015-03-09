@@ -10,6 +10,6 @@ resource "aws_instance" "nat" {
      access the internet or update packages from public repos.  to fix,
      either toggle it true then false, or fix it manually in the GUI */
   source_dest_check = false 
-  key_name = "terraform"
+  key_name = "${var.ssh_key}" 
 }
 

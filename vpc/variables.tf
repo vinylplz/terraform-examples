@@ -1,5 +1,8 @@
 variable "access_key" {}
 variable "secret_key" {}
+variable "ssh_key" {
+  default = "terraform"
+}
 variable "region" {
   default = "us-east-1"
 }
